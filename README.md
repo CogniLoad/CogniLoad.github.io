@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/CogniLoad/CogniLoad.github.io/blob/main/paper_logo.png" width="120px"/>
+<img src="https://github.com/CogniLoad/CogniLoad.github.io/blob/main/paper_logo.png" width="100px"/>
 
 ### Do Large Language Models Suffer from Cognitive Overload? A Benchmark and Orchestration Framework
 
@@ -34,8 +34,6 @@ At its core, the project utilizes the **Collective Orchestration Framework (COF)
 </div>
 
 <div align="center">
-
-*[Image: Cognitive Orchestration Framework Architecture showing multi-agent cooperation and shared memory state]*
 
 </div>
 
@@ -158,7 +156,7 @@ The COF reasoning process is defined by the following stages:
 
 </div>
 
-### 1️⃣ Decomposition
+### 1. Decomposition
 
 <div align="center">
 
@@ -174,7 +172,7 @@ $$
 f_{dec}(Q) \rightarrow \{P_1, P_2, ..., P_N\}
 $$
 
-### 2️⃣ Collective Memory
+### 2. Collective Memory
 
 <div align="center">
 
@@ -190,7 +188,7 @@ $$
 M_t = \{O_{1,t}, O_{2,t}, ..., O_{N,t}\}
 $$
 
-### 3️⃣ Iterative Refinement
+### 3. Iterative Refinement
 
 <div align="center">
 
@@ -206,7 +204,7 @@ $$
 O_{i,t} = f_{agent}(Q, P_i, O_{i,t-1}, M_{t-1})
 $$
 
-### 4️⃣ Synthesis
+### 4. Synthesis
 
 <div align="center">
 
